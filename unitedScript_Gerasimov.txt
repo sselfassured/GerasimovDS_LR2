@@ -1,0 +1,20 @@
+echo off
+md Gerasimov
+cd Gerasimov
+md Dmitry
+md Semyonovich
+pause
+echo > 18102002.txt
+cd Semyonovich
+echo > myPC.txt
+pause
+cd ..
+cd ..
+del Gerasimov /S /Q /F
+pause
+cd Gerasimov
+rd Dmitry
+rd Semyonovich
+cd ..
+rd Gerasimov
+pause
